@@ -13,3 +13,15 @@
 7. Git printed the commit information, including the commit hash 6ca9ae2, the commit message "Lab work so far," and a summary showing that 2 files changed. It also showed that .gitignore and README.md were created.
 
 8. The first seven characters of the commit hash, such as 6ca9ae2, are an abbreviated version of the commit's unique hash. They provide a convenient way to identify and refer to that specific commit.
+
+9. The four steps of the repetitive Git loop are edit, stage, commit, and repeat. In this lab, I edited lab4/notes.md, staged it with git add, committed it with git commit, and repeated the process when editing README.md.
+
+10. README.md has a special purpose because GitHub automatically displays it on the repository's front page. It should be placed in the root directory of the repository so GitHub can find and render it automatically.
+
+11. gh auth login authenticates my GitHub account and stores the credentials used by GitHub CLI. This allows Git operations such as git push to authenticate with GitHub without repeatedly asking for my password.
+
+12. README.md is rendered on the front page of a GitHub repository. GitHub does this because README.md is conventionally used to provide an introduction and information about the project.
+
+13. git push copies commits from the local repository to the remote GitHub repository. It does not change the commit history in the local repository.
+
+14. A private GitHub repository is hosted on GitHub but can only be accessed by people who have been given permission. If there is no GitHub repository, the project is not hosted on GitHub and remains only in the local repository.
